@@ -65,7 +65,7 @@ namespace InventoryApp.Forms
 
         private void LoadMaster()
         {
-            // simple filter by client and date range
+            
             int? clientId = cmbClients.SelectedIndex >= 0 ? (int?)Convert.ToInt32(((DataRowView)cmbClients.SelectedItem)["id"]) : null;
             DateTime from = dtFrom.Value.Date;
             DateTime to = dtTo.Value.Date.AddDays(1).AddSeconds(-1);

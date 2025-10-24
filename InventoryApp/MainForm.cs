@@ -11,7 +11,7 @@ namespace InventoryApp
 
         public MainForm()
         {
-            Text = "Inventario - Menú (versión net8.0)";
+            Text = "Inventario";
             Width = 420;
             Height = 180;
             StartPosition = FormStartPosition.CenterScreen;
